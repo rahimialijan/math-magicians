@@ -1,5 +1,5 @@
-import logo from "./logo.svg";
-import "./App.css";
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
@@ -7,7 +7,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Starting the <strong>Math-Magicians</strong> Project.
+          Starting the
+          {' '}
+          <strong>Math-Magicians</strong>
+          {' '}
+          Project.
         </p>
         <a
           className="App-link"
