@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Buttons from './components/Calculator';
+import Calculator from './components/Calculator';
 
 function App() {
   return (
     <div className="container">
-      <Buttons />
+      <Calculator />
     </div>
   );
 }
