@@ -16,20 +16,43 @@ body {
 
 .container {
   height: 65vh;
-  width: 60vh;
-  background-color: rgba(110, 111, 111, 0.977);
+  width: 140vh;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(134, 132, 132);
   border-radius: 1rem;
   -webkit-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
   -moz-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
   box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
 }
 
+.quotes-container {
+  height: 100%;
+  width: 49%;
+  margin-right: 2%;
+  margin-left: 2%;
+  display: flex;
+}
+
+.quotes-wrapper {
+  padding: 50px 10px;
+  height: 90%;
+  width: 90%;
+  background: rgb(220, 220, 220);
+  align-self: center;
+}
+
+.quotes-wrapper > * {
+  margin-top: 15px;
+}
+
 .wrapper {
   display: grid;
   height: 100%;
-  width: 100%;
+  width: 49%;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
+  align-self: self-end;
 }
 
 .screen {
@@ -41,15 +64,17 @@ body {
   font-size: 2rem;
   overflow: hidden;
   background-color: rgba(134, 132, 132, 0.703);
+  border: 2px solid rgb(101, 99, 99);
+  border-top-right-radius: 8px;
 }
 
 .btn {
   display: grid;
   place-content: center;
   background-color: rgb(220, 220, 220);
-  border-radius: 1px;
   color: black;
   cursor: pointer;
+  border-radius: 4px;
   font-weight: bold;
   border: 1px solid rgb(185, 185, 185);
 }
