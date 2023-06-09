@@ -93,7 +93,7 @@ body {
 }
 
 .orange {
-  background-color: orange;
+  background-color: rgba(255, 166, 0, 0.842);
 }
 
 .orange:hover {
