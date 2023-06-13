@@ -1,13 +1,12 @@
 import React from 'react';
 import './App.css';
-import Calculator from './components/Calculator';
-import Quotes from './components/quotes';
+import { BrowserRouter } from 'react-router-dom';
+import Mainpage from './MainPage';
 
 function App() {
   return (
     <div className="container">
-      <Quotes />
-      <Calculator />
+      <BrowserRouter><Mainpage /></BrowserRouter>
     </div>
   );
 }

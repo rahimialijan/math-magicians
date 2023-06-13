@@ -1,0 +1,27 @@
+.quotes-container {
+  height: 100%;
+  width: 100%;
+  padding: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quotes-wrapper {
+  height: 70%;
+  width: 60%;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+  border-radius: 1rem;
+  -webkit-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+}
+
+.quotes-wrapper > * {
+  margin-top: 15px;
+}

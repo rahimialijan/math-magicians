@@ -1,0 +1,76 @@
+.calc-container {
+  display: flex;
+  height: 65%;
+  width: 60%;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.wrapper {
+  display: grid;
+  height: 100%;
+  width: 50%;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  align-self: center;
+  background-color: rgb(134, 132, 132);
+  border-radius: 1rem;
+  -webkit-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+  -moz-box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+  box-shadow: 7px 7px 5px 0 rgba(50, 50, 50, 0.75);
+}
+
+.screen {
+  grid-column: 1/-1;
+  color: white;
+  text-align: end;
+  padding-right: 10px;
+  padding-top: 18px;
+  font-size: 2rem;
+  overflow: hidden;
+  background-color: rgba(134, 132, 132, 0.703);
+  border: 2px solid rgb(101, 99, 99);
+  border-top-right-radius: 1rem;
+  border-top-left-radius: 1rem;
+}
+
+.btn {
+  display: grid;
+  place-content: center;
+  background-color: rgb(220, 220, 220);
+  color: black;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+  border: 1px solid rgb(185, 185, 185);
+  font-size: 1.3rem;
+}
+
+.btn:hover {
+  background-color: gray;
+}
+
+.light-gray {
+  background-color: rgb(220, 220, 220);
+  color: black;
+}
+
+.light-gray:hover {
+  background-color: white;
+}
+
+.orange {
+  background-color: rgba(255, 166, 0, 0.842);
+}
+
+.orange:hover {
+  background-color: white;
+  color: orange;
+}
+
+.zero {
+  grid-column: 1/span 2;
+  place-content: unset;
+  align-items: center;
+  padding-left: 2rem;
+}
