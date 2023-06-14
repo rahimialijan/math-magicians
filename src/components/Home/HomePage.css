@@ -1,0 +1,10 @@
+.homepage-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.homepage-container * {
+  margin-bottom: 20px;
+  margin-left: 120px;
+  margin-right: 120px;
+}
