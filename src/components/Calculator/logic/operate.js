@@ -17,14 +17,18 @@ export default function operate(numberOne, numberTwo, operation) {
   }
 
   if (operation === '÷') {
-    if (two.eq(0)) {
+    try {
+      return one.div(two).toString();
+    } catch (err) {
       return "Can't divide by 0.";
     }
-    return one.div(two).toString();
   }
-
   if (operation === '%') {
-    return one.mod(two).toString();
+    try {
+      return one.mod(two).toString();
+    } catch (err) {
+      return "Can't find modulo as can't divide by 0.";
+    }
   }
 
   throw new Error(`Unknown operation '${operation}'`);

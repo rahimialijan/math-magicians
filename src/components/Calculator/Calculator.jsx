@@ -21,7 +21,7 @@ const Calculator = () => {
     <div className="calc-container">
       <h1>{title}</h1>
       <div className="wrapper">
-        <div className="screen">{displayResult}</div>
+        <div className="screen" data-testid="screen">{displayResult}</div>
         <Buttons className="btn light-gray" text="AC" onClick={() => handleClick('AC')} />
         <Buttons className="btn light-gray" text="+/-" onClick={() => handleClick('+/-')} />
         <Buttons className="btn light-gray" text="%" onClick={() => handleClick('%')} />
