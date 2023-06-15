@@ -106,13 +106,18 @@ Clone this repository to your desired folder:
 
 ## 👥 Authors <a name="authors"></a>
 
-**Supreeti Kushwaha**
 
 👤 **Alijan Rahimi**
 
 - GitHub: [@Alijan-Rahimi](https://github.com/rahimialijan)
 - Twitter: [@AlijanRahimi10](https://twitter.com/AlijanRahimi10)
 - LinkedIn: [Alijan-Rahimi](https://www.linkedin.com/in/alijan-rahimi-18389ab3)
+
+👤 **Supreeti**
+
+- GitHub: [@supreeti](https://github.com/supreeti)
+- Twitter: [@Ksupreeti](https://twitter.com/Ksupreeti)
+- LinkedIn: [Supreeti](https://www.linkedin.com/in/supreeti-kushwaha-23336232/)
 
 ## 🔭 Future Features <a name="future-features"></a>
 
