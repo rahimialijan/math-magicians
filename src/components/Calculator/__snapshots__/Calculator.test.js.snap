@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Calculator renders correctly 1`] = `
+<DocumentFragment>
+  <div
+    class="calc-container"
+  >
+    <h1>
+      Let's do some Math!
+    </h1>
+    <div
+      class="wrapper"
+    >
+      <div
+        class="screen"
+        data-testid="screen"
+      >
+        0
+      </div>
+      <button
+        class="btn light-gray"
+        type="button"
+      >
+        AC
+      </button>
+      <button
+        class="btn light-gray"
+        type="button"
+      >
+        +/-
+      </button>
+      <button
+        class="btn light-gray"
+        type="button"
+      >
+        %
+      </button>
+      <button
+        class="btn orange"
+        type="button"
+      >
+        ÷
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        7
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        8
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        9
+      </button>
+      <button
+        class="btn orange"
+        type="button"
+      >
+        x
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        4
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        5
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        6
+      </button>
+      <button
+        class="btn orange"
+        type="button"
+      >
+        +
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        1
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        2
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        3
+      </button>
+      <button
+        class="btn orange"
+        type="button"
+      >
+        -
+      </button>
+      <button
+        class="btn zero"
+        type="button"
+      >
+        0
+      </button>
+      <button
+        class="btn"
+        type="button"
+      >
+        .
+      </button>
+      <button
+        class="btn orange"
+        type="button"
+      >
+        =
+      </button>
+    </div>
+  </div>
+</DocumentFragment>
+`;

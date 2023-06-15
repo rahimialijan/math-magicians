@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quotes component should render error state when data cannot be fetched 1`] = `
+<DocumentFragment>
+  <div>
+    Page is Loading...
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Quotes component should render loading state when data is loading 1`] = `
+<DocumentFragment>
+  <div>
+    Page is Loading...
+  </div>
+</DocumentFragment>
+`;
+
+exports[`Quotes component should render the quote correctly when data is fetched 1`] = `
+<DocumentFragment>
+  <div
+    class="quotes-container"
+  >
+    <div
+      class="quotes-wrapper"
+    >
+      <h3>
+         
+        <strong>
+          Category:
+        </strong>
+         Design
+      </h3>
+      <span>
+        <strong>
+          Author:
+        </strong>
+         John Doe
+      </span>
+      <p>
+        <strong>
+          Quote:
+        </strong>
+         Sample quote
+      </p>
+    </div>
+  </div>
+</DocumentFragment>
+`;
