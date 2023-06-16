@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+    - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -45,6 +46,10 @@
 - **[Responsive layout]**
 - **[UX/UI accessibility]**
 - **[Dynamic data]**
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://calculateapp.onrender.com/calculator)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -105,7 +110,6 @@ Clone this repository to your desired folder:
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 👥 Authors <a name="authors"></a>
-
 
 👤 **Alijan Rahimi**
 
